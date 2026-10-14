@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Our Fleet | Lunaris Air</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#090909;color:#f5f1e7;font-family:Arial,sans-serif}
+header{border-bottom:1px solid #9f7c32;padding:22px 7%;display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap}
+.brand{color:#d8b45b;font-size:24px;font-weight:bold;letter-spacing:3px}
+nav a{color:#e4c779;text-decoration:none;margin-left:20px}
+main{max-width:1150px;margin:55px auto;padding:0 22px}
+h1{text-align:center;color:#d8b45b;font-size:42px}
+.intro{text-align:center;color:#bbb;margin-bottom:42px}
+.fleet{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:28px}
+.aircraft{background:#171717;border:1px solid #755a2a;border-radius:12px;overflow:hidden}
+.aircraft img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;cursor:zoom-in}
+.details{padding:24px}
+.details h2{color:#e4c779;margin:0 0 10px}
+.type{color:#c7a75e;font-size:13px;text-transform:uppercase;letter-spacing:1px}
+.details p{line-height:1.6;color:#ddd}
+footer{text-align:center;color:#999;padding:45px}
+</style>
+</head>
+<body>
+<header>
+<div class="brand">LUNARIS AIR</div>
+<nav><a href="index.html">Home</a><a href="fleet.html">Our Fleet</a></nav>
+</header>
+<main>
+<h1>OUR FLEET</h1>
+<p class="intro">Discover the aircraft powering Lunaris Air.</p>
+<section class="fleet">
+<article class="aircraft">
+<a href="images/a321.png" target="_blank">
+<img src="images/a321.png" alt="Lunaris Air Airbus A321">
+</a>
+<div class="details">
+<h2>Airbus A321</h2>
+<div class="type">European Operations</div>
+<p>Our powerhouse European aircraft — used for extra demand during peak seasons.</p>
+</div>
+</article>
+<article class="aircraft">
+<a href="images/a220.png" target="_blank">
+<img src="images/a220.png" alt="Lunaris Air Airbus A220">
+</a>
+<div class="details">
+<h2>Airbus A220</h2>
+<div class="type">Regional & Business Operations</div>
+<p>Lunaris' Regional & Business workhorse. Powering the backbone of our UK and short-haul operations.</p>
+</div>
+</article>
+</section>
+</main>
+<footer>© Lunaris Air — Virtual Airline</footer>
+</body>
+</html>
